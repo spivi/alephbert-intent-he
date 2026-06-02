@@ -42,12 +42,11 @@ free". Both numbers below are on the same 374-row test set (see
 | Always guess the most common label | 5.9% | $0 |
 | Keyword rules (16 hand-written rules) | 24.9% | $0 |
 | GPT-4o-mini, zero-shot prompt | 57.2% | about $0.05 |
-| AlephBERT fine-tune (this repo) | 74.2% ± 0.3% | $0 |
+| AlephBERT fine-tune (this repo) | 76.2% | $0 |
 
-So the small fine-tuned model is about 17 points more accurate than asking
-GPT-4o-mini directly, and after you train it once it costs nothing to run. The
-accuracy is the average plus or minus the standard deviation over 3 training runs
-with different random seeds, so it is not a lucky single number.
+So the small fine-tuned model is about 19 points more accurate than asking
+GPT-4o-mini directly, and after you train it once it costs nothing to run. This is
+a single training run measured on the held-out test set.
 
 ## Quickstart: use the trained model
 
@@ -111,7 +110,10 @@ python scripts/baselines/gpt_zeroshot_baseline.py --test-data data/test.jsonl --
    wording, adding typos, emoji, and a bit of English. There are no real user
    messages in here, so there is no private data to worry about. A small sample
    of the result is in [`data/sample.jsonl`](./data/sample.jsonl) so you can see
-   the format.
+   the format. After the first version I noticed real gaps (for example "buy X"
+   requests like "תקנה חלב" were misread), so I added a batch of hand-authored
+   examples to cover the missing phrasings and retrained. Testing the model and
+   feeding the failures back into the data is most of the work.
 2. **A split that does not cheat.** The train/test split happens at the seed
    level, before the rewriting step. A couple of seeds per intent are kept aside
    completely, and the test set only contains rewrites of those held-out seeds.
