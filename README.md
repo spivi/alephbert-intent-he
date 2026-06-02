@@ -15,6 +15,23 @@ free Google Colab GPU, and every command below is meant to be copied and run.
 - **Live demo (try it in the browser):** [spivi87/alephbert-intent-he-demo](https://huggingface.co/spaces/spivi87/alephbert-intent-he-demo)
 - **Sample of the training data:** [`data/sample.jsonl`](./data/sample.jsonl)
 
+## Who this is for
+
+This is for developers who can build software but have not fine-tuned a text
+classifier before. I am not an ML researcher, and this is not ML research. It is
+an engineer documenting the path end to end: define a narrow intent task,
+generate data, avoid a bad train/test split, fine-tune a small Hebrew model,
+check it against simple baselines, export it, and ship a demo.
+
+## What this is not
+
+This is not a state-of-the-art Hebrew NLP benchmark, and not a claim that
+AlephBERT beats modern LLMs in general. It is not a production-ready classifier
+for every Hebrew chat. It is a worked example of turning one narrow problem into a
+small fine-tuned model and checking it honestly. The numbers below come from
+synthetic data, so read them as a controlled experiment, not as proof of
+real-world accuracy.
+
 ## What you will learn
 
 The task is to take a short Hebrew message, like "תוסיף חלב וביצים" ("add milk and
@@ -41,12 +58,19 @@ free". Both numbers below are on the same 374-row test set (see
 | Random guessing | 6.7% | $0 |
 | Always guess the most common label | 5.9% | $0 |
 | Keyword rules (16 hand-written rules) | 24.9% | $0 |
-| GPT-4o-mini, zero-shot prompt | 57.2% | about $0.05 |
-| AlephBERT fine-tune (this repo) | 76.2% | $0 |
+| GPT-4o-mini, zero-shot prompt | 57.2% | about $0.05 (estimate, see note) |
+| AlephBERT fine-tune (this repo) | 77.3% ± 0.8% | $0 |
 
-So the small fine-tuned model is about 19 points more accurate than asking
-GPT-4o-mini directly, and after you train it once it costs nothing to run. This is
-a single training run measured on the held-out test set.
+On this narrow synthetic task the fine-tune scored higher than my zero-shot
+GPT-4o-mini baseline on the same test split. That does not mean it is a better
+general Hebrew model. It means that for a narrow, repeated task, a small
+task-specific model can be cheaper, private, and effective. Accuracy is the mean
+plus or minus the standard deviation over 3 training runs (seeds 42, 43, 44); the
+published model is the seed 42 run.
+
+The GPT-4o-mini cost is an estimate for my zero-shot prompt and these short
+messages. OpenAI bills per token, not per message, so your cost will vary with
+prompt length, the number of labels, and the output format.
 
 ## Quickstart: use the trained model
 
@@ -110,10 +134,13 @@ python scripts/baselines/gpt_zeroshot_baseline.py --test-data data/test.jsonl --
    wording, adding typos, emoji, and a bit of English. There are no real user
    messages in here, so there is no private data to worry about. A small sample
    of the result is in [`data/sample.jsonl`](./data/sample.jsonl) so you can see
-   the format. After the first version I noticed real gaps (for example "buy X"
-   requests like "תקנה חלב" were misread), so I added a batch of hand-authored
-   examples to cover the missing phrasings and retrained. Testing the model and
-   feeding the failures back into the data is most of the work.
+   the format. After the first version I noticed real gaps and fed the failures
+   back into the data: "buy X" requests like "תקנה חלב" were misread, and short
+   single-item requests like "תקנה ביצים" were confused with removing an item
+   (single items were over-represented in the remove examples). I added
+   hand-authored examples across many item nouns and verbs to fix both, and
+   retrained. Testing the model and feeding the failures back into the data is
+   most of the work.
 2. **A split that does not cheat.** The train/test split happens at the seed
    level, before the rewriting step. A couple of seeds per intent are kept aside
    completely, and the test set only contains rewrites of those held-out seeds.

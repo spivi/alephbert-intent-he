@@ -1,3 +1,5 @@
+# These are the versions I tested with (Python 3.12+). Newer versions usually
+# work, but ML dependencies move fast, so pin these if a future release breaks.
 transformers>=5.9.0
 torch>=2.12.0
 datasets>=4.8.5
