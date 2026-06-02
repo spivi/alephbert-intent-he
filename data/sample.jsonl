@@ -1,0 +1,102 @@
+{"text": "תעדכן ביצים ל-3 קרטונים", "label": "UPDATE_QUANTITY", "label_en": "Change the quantity of an existing item", "label_id": 14}
+{"text": "תמחק לי את הקוד של ההזמנה", "label": "REVOKE_INVITE", "label_en": "Cancel or invalidate a group invite code", "label_id": 12}
+{"text": "היי, תוכל להביא לי כמה דברים מהחנות? 🛒", "label": "REVOKE_INVITE", "label_en": "Cancel or invalidate a group invite code", "label_id": 12}
+{"text": "מי בקטע של הקבוצה הזו?", "label": "GROUP_INFO", "label_en": "Show group members and details", "label_id": 6}
+{"text": "אל תשכח להביא עוף שלם וגם 2 חזה עוף", "label": "GROCERY_REQUEST", "label_en": "Add items to the shopping list", "label_id": 0}
+{"text": "קניתי כמעט הכל חוץ מהסבון", "label": "PARTIAL_COMPLETION", "label_en": "Mark most items bought except for some", "label_id": 5}
+{"text": "יאללה, תפוחים! 😄", "label": "REMOVE_ITEM", "label_en": "Remove a specific item from the list", "label_id": 4}
+{"text": "ייי, קניתי הכל, חוץ מהגבינה והיוגורט", "label": "PARTIAL_COMPLETION", "label_en": "Mark most items bought except for some", "label_id": 5}
+{"text": "אני הולך להביא כמה דברים מהסופר.", "label": "CLEAR_LIST", "label_en": "Mark all items as bought; clear the list", "label_id": 3}
+{"text": "מתכון לפסטה, מישהו? 😅", "label": "RECIPE_URL", "label_en": "Recipe URL — extract ingredients from a linked recipe", "label_id": 1}
+{"text": "נשמע טוב, תביא לי את חברי הקבוצה!", "label": "GROUP_INFO", "label_en": "Show group members and details", "label_id": 6}
+{"text": "מה עם שם מגניב לקבוצה – \"קניות קיץ\"? 🛒", "label": "RENAME_GROUP", "label_en": "Change the group name", "label_id": 9}
+{"text": "יש לי רשימה של מצרכים, אתה זוכר מה צריך לקנות?", "label": "GROUP_INFO", "label_en": "Show group members and details", "label_id": 6}
+{"text": "מישהו יכול לעזור לי עם קניות?", "label": "CLEAR_LIST", "label_en": "Mark all items as bought; clear the list", "label_id": 3}
+{"text": "חלב נפל מהרשימה שלי 😳", "label": "PARTIAL_COMPLETION", "label_en": "Mark most items bought except for some", "label_id": 5}
+{"text": "סופר שופינג מלא, רק הסבון לא במאגר", "label": "PARTIAL_COMPLETION", "label_en": "Mark most items bought except for some", "label_id": 5}
+{"text": "אני רוצה לחם, חמאה ו3 יוגורטים, אוקי?", "label": "GROCERY_REQUEST", "label_en": "Add items to the shopping list", "label_id": 0}
+{"text": "אפשר לעזור לי עם רשימת המצרכים?", "label": "REVOKE_INVITE", "label_en": "Cancel or invalidate a group invite code", "label_id": 12}
+{"text": "היי, אני צריך לקנות דברים, אתה בא?", "label": "LEAVE_GROUP", "label_en": "Leave the current group", "label_id": 10}
+{"text": "תוכל לשנות את שם הקבוצה לבית לוי? תודה!", "label": "RENAME_GROUP", "label_en": "Change the group name", "label_id": 9}
+{"text": "עושה עכשיו את הקניות!", "label": "CLEAR_LIST", "label_en": "Mark all items as bought; clear the list", "label_id": 3}
+{"text": "שמיר ופטרוזיליה", "label": "GROCERY_REQUEST", "label_en": "Add items to the shopping list", "label_id": 0}
+{"text": "אני צריך לקנות כמה מצרכים, מה לקחת?", "label": "RECIPE_URL", "label_en": "Recipe URL — extract ingredients from a linked recipe", "label_id": 1}
+{"text": "יש צורך לקנות כמה groceries", "label": "NOTIFICATION_SETTINGS", "label_en": "Toggle notification preferences", "label_id": 11}
+{"text": "מישהו יודע מי נמצא בקבוצה? 🛒", "label": "GROUP_INFO", "label_en": "Show group members and details", "label_id": 6}
+{"text": "תודה מראש אם תוכל לשלוח לי את המתכון לפסטה!", "label": "RECIPE_URL", "label_en": "Recipe URL — extract ingredients from a linked recipe", "label_id": 1}
+{"text": "אני רוצה להוסיף בן משפחה", "label": "CREATE_INVITE", "label_en": "Generate a new group invite code", "label_id": 8}
+{"text": "חלב", "label": "GROCERY_REQUEST", "label_en": "Add items to the shopping list", "label_id": 0}
+{"text": "תשיג לי את הליסט בבקשה", "label": "LIST_QUERY", "label_en": "Show the current shopping list", "label_id": 2}
+{"text": "אני לא מתעניין בעדכונים, תפסיקו לשלוח", "label": "NOTIFICATION_SETTINGS", "label_en": "Toggle notification preferences", "label_id": 11}
+{"text": "יש לי צורך ב-4 ביצים", "label": "UPDATE_QUANTITY", "label_en": "Change the quantity of an existing item", "label_id": 14}
+{"text": "לא יודע מה לשלוח, אבל צריך אישור להזמנה מהסופר", "label": "REVOKE_INVITE", "label_en": "Cancel or invalidate a group invite code", "label_id": 12}
+{"text": "יאללה, מישהו יכול להזכיר לי לקנות לחם? 🥖", "label": "LEAVE_GROUP", "label_en": "Leave the current group", "label_id": 10}
+{"text": "תשכח מהשמיר, תוריד אותו מהרשימה", "label": "REMOVE_ITEM", "label_en": "Remove a specific item from the list", "label_id": 4}
+{"text": "Where can I find milk in the grocery?", "label": "BUG_REPORT", "label_en": "Report a bug or issue with the bot", "label_id": 15}
+{"text": "בואו נבחר שם חדש לקבוצת הקניות – יש רעיונות?", "label": "RENAME_GROUP", "label_en": "Change the group name", "label_id": 9}
+{"text": "אני רוצה לקבל עדכונים 📱", "label": "NOTIFICATION_SETTINGS", "label_en": "Toggle notification preferences", "label_id": 11}
+{"text": "אני צריך לקנות חלב, חוץ מזה יש לי הכל.", "label": "PARTIAL_COMPLETION", "label_en": "Mark most items bought except for some", "label_id": 5}
+{"text": "שלום", "label": "OTHER", "label_en": "Conversational or off-topic message; not a shopping intent", "label_id": 16}
+{"text": "הקוד לא נראה לי, תן לי לראות אותו!", "label": "GET_INVITE_CODE", "label_en": "Get the existing group invite code", "label_id": 7}
+{"text": "קניתי פירות, וגם שוקולד 🍫", "label": "PARTIAL_COMPLETION", "label_en": "Mark most items bought except for some", "label_id": 5}
+{"text": "מה חסר לי בסופר?", "label": "LIST_QUERY", "label_en": "Show the current shopping list", "label_id": 2}
+{"text": "אני צריך את קוד ההזמנה", "label": "GET_INVITE_CODE", "label_en": "Get the existing group invite code", "label_id": 7}
+{"text": "אני בשוק, תכף קונה מה שאני צריך!", "label": "CLEAR_LIST", "label_en": "Mark all items as bought; clear the list", "label_id": 3}
+{"text": "אפשר לעדכן את השם בקבוצה?", "label": "RENAME_GROUP", "label_en": "Change the group name", "label_id": 9}
+{"text": "אני מחפש קוד הזמנה חדש בבקשה! 😊", "label": "CREATE_INVITE", "label_en": "Generate a new group invite code", "label_id": 8}
+{"text": "אפשר לקבל את רשימת הקניות בבקשה? 🛒", "label": "LIST_QUERY", "label_en": "Show the current shopping list", "label_id": 2}
+{"text": "תשנה לי את שם הקבוצה בבקשה", "label": "RENAME_GROUP", "label_en": "Change the group name", "label_id": 9}
+{"text": "מה קונים היום בשביל שניצל?", "label": "RECIPE_SEARCH", "label_en": "Build a shopping list for a known dish", "label_id": 13}
+{"text": "תשמע, יש לך רעיון למתכון לפסטה?", "label": "RECIPE_SEARCH", "label_en": "Build a shopping list for a known dish", "label_id": 13}
+{"text": "תביא לי ביצים בבקשה", "label": "REMOVE_ITEM", "label_en": "Remove a specific item from the list", "label_id": 4}
+{"text": "אני צריך רשימה של מצרכים לסלט יווני 🥗", "label": "RECIPE_SEARCH", "label_en": "Build a shopping list for a known dish", "label_id": 13}
+{"text": "אני צריך את רשימת הקניות שלי", "label": "REVOKE_INVITE", "label_en": "Cancel or invalidate a group invite code", "label_id": 12}
+{"text": "מה צריך לחומוס?", "label": "RECIPE_SEARCH", "label_en": "Build a shopping list for a known dish", "label_id": 13}
+{"text": "הסר אותי מהקבוצה", "label": "LEAVE_GROUP", "label_en": "Leave the current group", "label_id": 10}
+{"text": "אני רוצה להוסיף משפחה", "label": "CREATE_INVITE", "label_en": "Generate a new group invite code", "label_id": 8}
+{"text": "רציתי לבקש מתכון של פסטה, אפשר?", "label": "RECIPE_SEARCH", "label_en": "Build a shopping list for a known dish", "label_id": 13}
+{"text": "צור קוד הזמנה", "label": "CREATE_INVITE", "label_en": "Generate a new group invite code", "label_id": 8}
+{"text": "חבר'ה, תחזירו לי את קוד ההזמנה מהר!", "label": "GET_INVITE_CODE", "label_en": "Get the existing group invite code", "label_id": 7}
+{"text": "אני צריך קוד הזמנה חדש", "label": "CREATE_INVITE", "label_en": "Generate a new group invite code", "label_id": 8}
+{"text": "מה השם שלך, אם אפשר?", "label": "OTHER", "label_en": "Conversational or off-topic message; not a shopping intent", "label_id": 16}
+{"text": "היי", "label": "OTHER", "label_en": "Conversational or off-topic message; not a shopping intent", "label_id": 16}
+{"text": "אל תשלחו לי עדכונים בבקשה 🙏", "label": "NOTIFICATION_SETTINGS", "label_en": "Toggle notification preferences", "label_id": 11}
+{"text": "אני צריכה לקנות כמה מוצרים לקניות היום.", "label": "BUG_REPORT", "label_en": "Report a bug or issue with the bot", "label_id": 15}
+{"text": "איפה אני יכול להשיג מצרכים טובים?", "label": "BUG_REPORT", "label_en": "Report a bug or issue with the bot", "label_id": 15}
+{"text": "אתה יכול לזרוק לי את המצרכים מהמרקט?", "label": "OTHER", "label_en": "Conversational or off-topic message; not a shopping intent", "label_id": 16}
+{"text": "לא שוכחת את הפסטה ורוטב עגבניות, נכון?", "label": "GROCERY_REQUEST", "label_en": "Add items to the shopping list", "label_id": 0}
+{"text": "יש לי חשק לעשות קניות היום", "label": "LEAVE_GROUP", "label_en": "Leave the current group", "label_id": 10}
+{"text": "יאללה, תביא לי את הליסט!", "label": "LIST_QUERY", "label_en": "Show the current shopping list", "label_id": 2}
+{"text": "תצטרפו אלי לקניות היום, יש מה להביא! 🛒", "label": "GROUP_INFO", "label_en": "Show group members and details", "label_id": 6}
+{"text": "מה דעתך על מתכון לעוגה?", "label": "RECIPE_URL", "label_en": "Recipe URL — extract ingredients from a linked recipe", "label_id": 1}
+{"text": "going to pick up some groceries", "label": "CLEAR_LIST", "label_en": "Mark all items as bought; clear the list", "label_id": 3}
+{"text": "אפשר לדעת מה צריך לקנות?", "label": "LIST_QUERY", "label_en": "Show the current shopping list", "label_id": 2}
+{"text": "תביא לי קפה בבקשה ☕", "label": "REMOVE_ITEM", "label_en": "Remove a specific item from the list", "label_id": 4}
+{"text": "תשיג לי פסטה, תודה!", "label": "REMOVE_ITEM", "label_en": "Remove a specific item from the list", "label_id": 4}
+{"text": "אני רוצה לדלג על השופינג היום, אפשר סופר און ליין?", "label": "LEAVE_GROUP", "label_en": "Leave the current group", "label_id": 10}
+{"text": "מה הקוד שלי?", "label": "GET_INVITE_CODE", "label_en": "Get the existing group invite code", "label_id": 7}
+{"text": "לא לשכוח את החצילים!", "label": "REMOVE_ITEM", "label_en": "Remove a specific item from the list", "label_id": 4}
+{"text": "סיימתי עם הליסט, עכשיו לקנות!", "label": "CLEAR_LIST", "label_en": "Mark all items as bought; clear the list", "label_id": 3}
+{"text": "מישהו יכול לתת לי טיפ על סופר חמוד?", "label": "OTHER", "label_en": "Conversational or off-topic message; not a shopping intent", "label_id": 16}
+{"text": "אני צריך לקנות 2 קילו עגבניות.", "label": "UPDATE_QUANTITY", "label_en": "Change the quantity of an existing item", "label_id": 14}
+{"text": "חלב וביצים, plz!", "label": "GROCERY_REQUEST", "label_en": "Add items to the shopping list", "label_id": 0}
+{"text": "אפשר לדעת מה קוד ההזמנה? 😊", "label": "GET_INVITE_CODE", "label_en": "Get the existing group invite code", "label_id": 7}
+{"text": "לא בא לי להיות בקבוצה 😒", "label": "LEAVE_GROUP", "label_en": "Leave the current group", "label_id": 10}
+{"text": "שנה את שם הקבוצה ל-\"בית לוי\", לא?", "label": "RENAME_GROUP", "label_en": "Change the group name", "label_id": 9}
+{"text": "מהם המקומות הכי שווים לקניות? 😄", "label": "BUG_REPORT", "label_en": "Report a bug or issue with the bot", "label_id": 15}
+{"text": "קבוצה הזאת לא נותנת לי להצטרף", "label": "BUG_REPORT", "label_en": "Report a bug or issue with the bot", "label_id": 15}
+{"text": "https://www.hashulchan.co.il/recipe/shakshuka", "label": "RECIPE_URL", "label_en": "Recipe URL — extract ingredients from a linked recipe", "label_id": 1}
+{"text": "הדלק התראות", "label": "NOTIFICATION_SETTINGS", "label_en": "Toggle notification preferences", "label_id": 11}
+{"text": "צריך לשדרג את החלב ל-4 מיכלים", "label": "UPDATE_QUANTITY", "label_en": "Change the quantity of an existing item", "label_id": 14}
+{"text": "תשנה את הכמות של הלחם ל-2 סתם ככה", "label": "UPDATE_QUANTITY", "label_en": "Change the quantity of an existing item", "label_id": 14}
+{"text": "דרוש 5 חלב, לא 3, יש?", "label": "UPDATE_QUANTITY", "label_en": "Change the quantity of an existing item", "label_id": 14}
+{"text": "היי, תוכל לעזור לי עם קניות?", "label": "OTHER", "label_en": "Conversational or off-topic message; not a shopping intent", "label_id": 16}
+{"text": "האם יש למישהו קוד?", "label": "GET_INVITE_CODE", "label_en": "Get the existing group invite code", "label_id": 7}
+{"text": "תכתבי לי מה צריך לקנות לפיצה, יאללה", "label": "RECIPE_SEARCH", "label_en": "Build a shopping list for a known dish", "label_id": 13}
+{"text": "צריך קוד חדש להזמנה, אפשר?", "label": "CREATE_INVITE", "label_en": "Generate a new group invite code", "label_id": 8}
+{"text": "תחברו לי להודעות כשצריך", "label": "NOTIFICATION_SETTINGS", "label_en": "Toggle notification preferences", "label_id": 11}
+{"text": "איך זה נראה, כמה אנשים בקבוצה?", "label": "GROUP_INFO", "label_en": "Show group members and details", "label_id": 6}
+{"text": "אם אפשר, תשלח לי מתכון לפסטה?", "label": "RECIPE_URL", "label_en": "Recipe URL — extract ingredients from a linked recipe", "label_id": 1}
+{"text": "היי, אני צריך עזרה בקניות בסופר, יש למישהו טיפים?", "label": "BUG_REPORT", "label_en": "Report a bug or issue with the bot", "label_id": 15}
+{"text": "יאללה, אני צריך לסיים את קניות שלי! 🛒", "label": "REVOKE_INVITE", "label_en": "Cancel or invalidate a group invite code", "label_id": 12}
+{"text": "אפשר שתראה לי את רשימת המצרכים?", "label": "LIST_QUERY", "label_en": "Show the current shopping list", "label_id": 2}

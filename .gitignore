@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+data/*
+!data/sample.jsonl
+model/
+model-publish/
+*.onnx
+*.onnx.data
+*.safetensors
+*.bin
+eval*.json
+.DS_Store
+.env
