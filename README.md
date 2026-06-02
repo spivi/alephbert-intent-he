@@ -5,8 +5,8 @@ messages and decide what the user wants. It is a learning project: the point is
 to show the whole process, from making training data to shipping a live demo, in
 a way you can follow step by step and adapt to your own idea.
 
-If you are new to this, that is fine. The whole thing runs on a laptop or on a
-free Google Colab GPU, and every command below is meant to be copied and run.
+If you are new to this, that is fine. The whole thing runs on a modest laptop, and
+every command below is meant to be copied and run.
 
 [![Model on HF](https://img.shields.io/badge/%F0%9F%A4%97%20Model-spivi87%2Falephbert--intent--he-blue)](https://huggingface.co/spivi87/alephbert-intent-he)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green)](./LICENSE)
@@ -168,18 +168,6 @@ text-classification task. To point it at your own problem:
    example sentences per class for your own domain.
 3. Re-run the steps above. Adjust `--test-seeds-per-intent`, `--variations`, and
    the confidence threshold to match how many classes and how much data you have.
-
-### Fine-tune on your own data in Colab (no setup)
-
-If you already have a labelled CSV (with `text` and `label` columns), you can skip
-the synthetic-data step and fine-tune straight away in your browser on a free T4
-GPU:
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/spivi/alephbert-intent-he/blob/main/finetune.ipynb)
-
-The notebook ([`finetune.ipynb`](./finetune.ipynb)) reads your CSV, builds the
-label map for you, fine-tunes AlephBERT, prints a per-class report, and exports to
-ONNX. End to end it takes about 10 to 25 minutes.
 
 ## Good to know before you rely on it
 
