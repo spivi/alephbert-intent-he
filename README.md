@@ -187,7 +187,8 @@ at Bar-Ilan University. AlephBERT was built by Amit Seker, Elron Bandel, Dan
 Bareket, Idan Brusilovsky, Refael Greenfeld, and Reut Tsarfaty. All the heavy
 lifting of learning the Hebrew language was done by their model. This repo only
 fine-tunes it on a small intent-classification task, and it would not exist
-without their work. Thank you to the ONLP Lab team.
+without their work. Thank you to the ONLP Lab team. Their code and models are at
+[github.com/OnlpLab/AlephBERT](https://github.com/OnlpLab/AlephBERT).
 
 If AlephBERT is useful to you, please cite their paper:
 
